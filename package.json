@@ -13,23 +13,29 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.8.2",
-    "@emotion/react": "^11.11.3",
-    "@emotion/styled": "^11.11.0",
+    "@aws-sdk/client-transcribe": "^3.525.0",
+    "@aws-sdk/client-transcribe-streaming": "^3.525.0",
+    "@chakra-ui/icons": "^2.2.4",
+    "@chakra-ui/react": "^2.10.7",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "dexie": "^4.0.11",
-    "framer-motion": "^10.18.0",
+    "framer-motion": "^11.18.2",
+    "microphone-stream": "^6.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.55",
+    "@types/react": "^18.3.21",
     "@types/react-dom": "^18.2.19",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "glob": "^10.3.10",
+    "rimraf": "^5.0.5",
     "typescript": "^5.2.2",
     "vite": "^5.1.0"
   }

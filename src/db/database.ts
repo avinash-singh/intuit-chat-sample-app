@@ -14,6 +14,11 @@ export interface Message {
   username: string;
   timestamp: Date;
   chatId: number;
+  isRead: boolean;
+  isEdited?: boolean;
+  reactions?: Record<string, string[]>;
+  parentId?: number;  // ID of the parent message for threaded replies
+  isThread?: boolean; // Whether this message is part of a thread
 }
 
 export interface Chat {
